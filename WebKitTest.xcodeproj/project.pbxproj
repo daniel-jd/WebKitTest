@@ -13,6 +13,8 @@
 		A537AE0426F0FC430082C211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A537AE0226F0FC430082C211 /* Main.storyboard */; };
 		A537AE0626F0FC5B0082C211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A537AE0526F0FC5B0082C211 /* Assets.xcassets */; };
 		A537AE0926F0FC5B0082C211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A537AE0726F0FC5B0082C211 /* LaunchScreen.storyboard */; };
+		A537AE1226F132DB0082C211 /* ThomannPage.html in Resources */ = {isa = PBXBuildFile; fileRef = A537AE1126F132DB0082C211 /* ThomannPage.html */; };
+		A537AEF426F136030082C211 /* ThomannPage_files in Resources */ = {isa = PBXBuildFile; fileRef = A537AEF326F136020082C211 /* ThomannPage_files */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A537AE0526F0FC5B0082C211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A537AE0826F0FC5B0082C211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A537AE0A26F0FC5B0082C211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A537AE1126F132DB0082C211 /* ThomannPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ThomannPage.html; sourceTree = "<group>"; };
+		A537AEF326F136020082C211 /* ThomannPage_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ThomannPage_files; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		A537ADFB26F0FC430082C211 /* WebKitTest */ = {
 			isa = PBXGroup;
 			children = (
+				A537AE1126F132DB0082C211 /* ThomannPage.html */,
 				A537ADFC26F0FC430082C211 /* AppDelegate.swift */,
 				A537ADFE26F0FC430082C211 /* SceneDelegate.swift */,
 				A537AE0026F0FC430082C211 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				A537AE0526F0FC5B0082C211 /* Assets.xcassets */,
 				A537AE0726F0FC5B0082C211 /* LaunchScreen.storyboard */,
 				A537AE0A26F0FC5B0082C211 /* Info.plist */,
+				A537AEF326F136020082C211 /* ThomannPage_files */,
 			);
 			path = WebKitTest;
 			sourceTree = "<group>";
@@ -125,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A537AE0926F0FC5B0082C211 /* LaunchScreen.storyboard in Resources */,
+				A537AE1226F132DB0082C211 /* ThomannPage.html in Resources */,
+				A537AEF426F136030082C211 /* ThomannPage_files in Resources */,
 				A537AE0626F0FC5B0082C211 /* Assets.xcassets in Resources */,
 				A537AE0426F0FC430082C211 /* Main.storyboard in Resources */,
 			);
