@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController, WKUIDelegate {
+class ViewController: UIViewController, WKNavigationDelegate {
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var webKitView: WKWebView!
@@ -25,14 +25,15 @@ class ViewController: UIViewController, WKUIDelegate {
         activityIndicator.startAnimating()
 
         webKitView.load(URLRequest(url: url))
-        webKitView.uiDelegate = self
+        webKitView.navigationDelegate = self
 
     }
 
-//    override func web() {
-//        activityIndicator.stopAnimating()
-//        activityIndicator.isHidden = true
-//    }
+    func webView(_ webView: WKWebView,
+        didFinish navigation: WKNavigation!) {
+        activityIndicator.stopAnimating()
+        activityIndicator.isHidden = true
+      }
 
 }
 
